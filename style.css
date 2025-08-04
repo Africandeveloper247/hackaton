@@ -1,0 +1,265 @@
+*{
+    top: 0%;
+    width: 100%;
+    
+}
+body{
+    background-color: #121212;
+   
+}
+#intro{
+    width: 50%;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: "poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.logo a{
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+#bio{
+    display: flex;
+    margin-top: 50px;
+
+
+}
+
+#bio h2{
+    color:#ffff;
+    font-size: 50px;
+    font-family:"poppins", sans-serif ;
+    display: flex;
+    margin: 20px;
+
+}
+#bio p{
+    color: #ffff;
+    display: flex;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+
+}
+#bio a{
+    text-decoration: none;
+}
+#bio h4{
+    color: #ffff;
+    display: flex;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+#resume button{
+    padding: 16px,32px;
+    background-color: #FD0900;
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    height: 40px;
+    width: 200px;
+    box-shadow: #ffff;
+    font-size:16px ;
+    font-family:sans-serif;
+    margin-inline: 20px;
+    font-weight: 600;
+    
+   
+
+}
+
+#button button{
+    padding: 16px,32px;
+    background-color:#121212;
+    border: 2px solid #FD0900;
+    border-radius: 10px;
+    color: #ffff;
+    height: 40px;
+    width: 150px;
+    font-size:16px ;
+    font-family: sans-serif;
+    margin-inline: 20px;
+    box-shadow: 0px,0px, 10px #ffff;
+    font-weight: 600; 
+}
+.profile_img{
+    float: right;
+}
+.bgd{
+    background-color: #FD0900;
+    border-radius: 50%;
+    height: 500px;
+    width:500px;
+    float: right;
+    
+}
+img{
+    height: 500px;
+    width: auto;
+    float: right;
+}
+#skills, ul, li{
+    list-style: none;
+    display: flex;
+    font-weight: 100px;
+}
+#skills{
+    background-color: #1b1b1b;
+    color: #ffff;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.bgrd{
+    color: #ffff;
+    padding: 10px;
+    font-family: "poppins",sans-serif;
+    font-size: 16px;
+}
+.bgrd h2{
+    color: #FD0900;
+}
+.interests{
+    justify-content: right;
+    padding: 10px;
+     background-color: #1b1b1b;
+}
+.interests h2{
+     font-size: 20px;
+    font-family: sans-serif;
+    color: #FD0900;
+    font-weight: 200px;
+
+}
+
+.interests p{
+    color: #ffff;
+    line-height: 1.8;
+    font-family: "poppins", sans-serif;
+    
+}
+.projects {
+    font-family: "poppins",sans-serif;
+    font-size: 16px;
+    color: #ffff;
+    
+}
+.projects H3{
+    color: #FD0900;
+}
+.projects h2{
+    color: #FD0900;
+}
+#contact fieldset{
+    margin-top: 20px;
+    background-color: #1b1b1b;
+}
+#contact fieldset legend{
+    color: #FD0900;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+#contact label{
+    color: #ffff;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+#contact input{
+    width: 500px;
+    height: 40px;
+    background-color: #1b1b1b;
+    color: #ffff;
+    border: 1px solid white;
+}
+
+#contact textarea{
+   width: 500px;
+    height: 40px;
+    background-color: #1b1b1b;
+    color: #ffff;
+    border: 1px solid white; 
+}
+#contact button{
+    padding: 16px,32px;
+    background-color:#121212;
+    border: 2px solid #FD0900;
+    border-radius: 10px;
+    color: #ffff;
+    height: 40px;
+    width: 150px;
+    font-size:16px ;
+    font-family: sans-serif;
+    box-shadow:4px 8px #ffff(0, 4, 8);
+    
+}
+footer{
+  background-color: #c0150f;
+  height: 50px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px;
+
+}
+footer a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+footer p{
+    color: #ffff;
+
+}
+
+.navbar li:hover{
+
+    border-color: 2px solid #FD0900;
+}
+  
+
+/*icons*/
+.fa-square-github,.fa-square-x-twitter, .fa-square-linkedin{
+   color: #ffff;
+   font-size: 25px;
+   height: 40%;
+   justify-content: center;
+}
+.navbar li:hover{
+    border: 2px solid #FD0900; 
+    justify-content: center;
+border-radius: 10px;
+text-align: center;
+padding:10px;
+}
+
+#button button:hover{
+    background-color: #963a37;
+}
+
+#resume button:hover{
+   background-color: #963a37;
+}
+
+#contact button:hover{
+   background-color: #963a37;
+}
